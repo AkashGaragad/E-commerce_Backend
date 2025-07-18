@@ -19,7 +19,7 @@ res.json({
 });
 });
 
-app.use("/",productRoutes);
+app.use("/products",productRoutes);
 app.use("/auth", authRoutes);
 
 mongoose
